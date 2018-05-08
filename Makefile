@@ -31,8 +31,8 @@ apidoc:
 	@make resetOwner
 
 clean:
-	@rm -Rf data/db/mysql/*
-	@rm -Rf $(MYSQL_DUMPS_DIR)/*
+#	@rm -Rf data/db/mysql/*
+#	@rm -Rf $(MYSQL_DUMPS_DIR)/*
 	@rm -Rf web/app/vendor
 	@rm -Rf web/app/composer.lock
 	@rm -Rf web/app/doc
